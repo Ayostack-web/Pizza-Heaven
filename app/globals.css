@@ -237,8 +237,8 @@ color: #555;
 
 /* Box with Shadow */
 .shadow-box {
-  width: 290px;
-  height: 150px;
+  /*width: 280px;
+  height: 150px;*/
   padding: 30px;
   background-color: rgb(239, 235, 234);
   box-shadow: 6px 6px 3px rgb(82, 80, 80);
