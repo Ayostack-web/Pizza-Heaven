@@ -24,22 +24,6 @@ const Menu = () => {
         </div>
       </div> <br />
 
-      {/* Dropdown */}
-      <div className="dropdown">
-        <button className="dropdown-btn">Select Pizza Size</button>
-        <div className="dropdown-content">
-          <a href="#">Small</a>
-          <a href="#">Medium</a>
-          <a href="#">Large</a>
-        </div>  <br />
-      </div> 
-
-      {/* Promo Box */}
-      <div className="shadow-box">
-        <h2 className="h2">Delicious Pizza</h2>
-        <p>Order your favorite pizza now with fresh ingredients!</p>
-      </div>
-
       {/* Menu Table */}
       <h2>🍽️ Our Menu</h2>
       <table>

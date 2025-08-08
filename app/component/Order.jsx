@@ -18,7 +18,9 @@ const Order = () => {
         <label>
           <input type="checkbox" name="pizza" value="BBQ Chicken" />
           BBQ Chicken
-        </label><br />
+        </label> <br /> 
+
+       
 
         {/* Quantity Selection */}
         <h3>Quantity:</h3>
