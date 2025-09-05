@@ -1,36 +1,78 @@
-export default function Contact() {
+const Contact = () => {
   return (
-    <section id="contact" className="py-6 container mx-auto px-6">
-      <h2 className="text-3xl font-bold text-center mb-8">Contact Us</h2>
-      <div className="max-w-2xl mx-auto">
-        <form className="space-y-6">
+    <section
+      id="contact"
+      className="bg-blue-50 py-2 px-4 text-center"
+    >
+       {/* Contact Info */}
+        <div className="mb-8 space-y-2  text-gray-700 text-left">
+           <h2 className="text-3xl font-bold text-gray-800 mb-5">CONTACT US</h2>
+          <p className="font-bold" >🏠 5, Olugbenga Ladebo Street,
+            Harmony Estate, Funaab Gate,
+            Abeokuta, Ogun State.
+          </p>
+          <p className="font-bold">📞+234 705 971 2843 , +234 702 561 0725. </p>
+          <p className="font-bold">📧 hello@pizzaheaven.com</p> 
+        </div>
+        <form className="bg-blue-50 p-6 rounded-2xl shadow-md space-y-4 text-left">
           <input
             type="text"
             placeholder="Your Name"
-            className="w-full border p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-600"
+            required
+            className="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
           />
           <input
             type="email"
             placeholder="Your Email"
-            className="w-full border p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-600"
+            required
+            className="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
           />
           <textarea
-            rows={5}
             placeholder="Your Message"
-            className="w-full border p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-600"
+            required
+            rows={4}
+            className="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
           ></textarea>
-          <button className="w-full bg-orange-600 text-white px-4 py-3 rounded-lg font-semibold hover:bg-orange-500 transition">
+          <button
+            type="submit"
+                           className="inline-block px-8 py-3 text-lg font-semibold text-black bg-gradient-to-tr from-orange-600 to-teal-100 rounded-full shadow-lg hover:from-orange-600 hover:to-white hover:-translate-y-1 transition"
+          >
             Send Message
           </button>
         </form>
-
-        <div className="mt-10 text-center">
-          <p className="text-lg font-semibold">Visit Us</p>
-          <p className="text-gray-600">📍 123 Pizza Street, Lagos, Nigeria</p>
-          <p className="text-gray-600">📞 +234 800 123 4567</p>
-          <p>📧 hello@pizzaheaven.com</p>
-        </div>
-      </div>
     </section>
   );
-}
+};
+
+export default Contact;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -19,7 +19,7 @@ export default function Header() {
   alt="Ayostack Logo"
   width={100}
   height={30}
-  priority /> <h1 className="text-orange-200 text-2xl " >Pizza Heaven</h1>
+  priority /> <h1 className="text-orange-100 text-2xl " >Pizza Heaven</h1>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex gap-4">
