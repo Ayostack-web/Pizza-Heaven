@@ -10,7 +10,7 @@ import Footer from './component/Footer'
 import Features from './component/FeatureMenu';
 import PizzaCard from './component/PizzzaCard';
 import Accordion from './component/accordion'
-import Tobuy from './component/tobuy'
+
 
 
 
@@ -37,7 +37,6 @@ export default function Home() {
       </div>
     </section>
       <Order/>
-      <Tobuy/>
       <Gallery/>
       <Contact/>
        <Accordion/>
